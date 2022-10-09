@@ -1,0 +1,175 @@
+.rb_templates_container{margin: 20px;}
+.rbt_frontend_outer_div .rbt_frontend_hide,.rbt_frontend_outer_div .error_message_div{display:none}
+.rbt_frontend_outer_div .rbt_template_drag_drop_item_section  .hover_close_btn, .rbt_backend_show {display: none}
+
+.rbt_frontend_outer_div .rbt_error_field{border:1px solid red;}
+/* loader css start */
+#rbt_loading_overlay, #rbt_loader_icon {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+#rbt_loader_icon img {
+  width: 71px;
+  height: 71px;
+}
+@keyframes rbt_lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rbt_lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rbt_lds-dual-ring {
+  position: relative;
+}
+.rbt_lds-dual-ring div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 20px;
+  border-radius: 60%;
+  border: 10px solid #000;
+  border-color: #fff transparent #fff transparent;
+  -webkit-animation: rbt_lds-dual-ring 1.4s linear infinite;
+  animation: rbt_lds-dual-ring 1.4s linear infinite;
+}
+.rbt_lds-dual-ring {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+.rbt_lds-dual-ring {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+/* loader css end */
+
+.rbt_frontend_outer_div  input:focus{outline:none; }
+
+/*   dragable elements customier start */
+.rbt_inner_section_side_bar, .rbt_inner_section_side_bar iframe {
+    width: 100% !important;
+   
+    height: auto !important;
+}
+
+.field_type_teaxarea {height: auto;}
+/*   dragable elements customier end */
+
+/* field validation start */
+.rbt_field_error_msg{color: red}
+.rbt_field_error_msg_html{display: none;}  
+.rbt_field_file_html  img{    width: 100px;    height: 100px;}
+/* field validation end */
+
+.rbt_frontend_outer_div  #rbt_form_template_wrapper{  margin:30px 0px;}
+.rbt_frontend_outer_div .reset_password_div #rbt_form_template_wrapper {
+    margin: 0;
+}
+
+.rbt_error_response   { background-color:#f05b41  !important;    display: block;}
+.rbt_error_response * {    color: #fff !important;    background-color: #f05b41  !important;    font-size: 21px !important;    font-weight: 500 !important;}
+
+/*//slider*/
+
+
+.rbt_slider_items_owl_carousel .owl-prev {
+  position: absolute ;
+  top: 50% ;
+  left: 5% ;
+  transform: translate(-50%,-50%) ;
+  font-size: 40px !important;
+}
+
+.rbt_slider_items_owl_carousel .owl-next {
+  position: absolute ;
+  top: 50% ;
+  right: 5% ;
+  transform: translate(-50%,-50%) ;
+  font-size: 40px !important;
+
+}
+
+.rbt_slider_items_owl_carousel .rbt_slider_item_info {
+  position: absolute;
+  top: 50% ;
+  left: 50% ;
+  transform: translate(-50%,-50%) ;
+
+}
+
+.rbt_slider_items_owl_carousel .rbt_slider_item_heading {
+    font-size: 20px;
+    color: #fff;
+   /* font-weight: 600;*/
+   text-align: center;
+}
+.rbt_slider_items_owl_carousel .rbt_slider_item_link a {
+  text-decoration: none;
+    text-align: center;
+    border: 1px solid #03a9f4;
+    font-weight: 500;
+    background: #03a9f4;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 4px;
+   
+    
+}
+.rbt_slider_items_owl_carousel .rbt_slider_item_link {
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.rbt_slider_items_owl_carousel .owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.tmplate_display_type_button_click #rbt_form_template_wrapper {display: none;}
+
+.rbt_temp_button_click_show,.rbt_temp_cursor {  cursor: pointer;}
+
+.tmplate_display_type_popup{position: fixed;left: 50%;z-index: 1024;top: 50%;transform: translate(-50%, -50%);height: 100%;width: 100%;background: #00000045;overflow-y: scroll;}
+.rbt_close_template_popup{transform: translate(-50%, -50%);    background: none;    font-size: 25px;    float: right;    margin-top: 63px;    color: white;    z-index: 9;}
+
+div.rbt_laoder_wrapper ~ .rbt_laoder_wrapper {display: none;}
+@media (max-width: 640px){
+  #rbt_form_template_wrapper .rbt_change_img_outer{
+    width: 100% !important;
+      height: auto !important;
+    margin-bottom: 1px;
+  }
+  #rbt_form_template_wrapper .rbt_change_img_outer img {
+    max-height: 190px !important;
+    object-fit: fill;
+    width: 100% !important;
+  }
+}

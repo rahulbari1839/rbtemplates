@@ -1,0 +1,137 @@
+
+#rbt_form_template_wrapper{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	display:inline-block;
+	width:100%;
+	margin:0;
+	padding:0; 
+	letter-spacing: normal; 
+}
+#rbt_form_template_wrapper .rbt_template_wrapper_customizer_init {
+    max-width: 573px;
+    width: 100%;
+    margin: 0px auto;
+    border: none;
+    box-shadow: 0px 0px 9px 0px #ddd;
+    background:#fff;
+    box-shadow: rgb(153, 153, 153) 0px 0px 18px 4px;
+    display: inline-block;
+    display:inline-block;
+    float:none;
+    vertical-align:top;
+    text-align:left;
+}
+
+
+#rbt_form_template_wrapper .rbt_change_img_outer {
+   /* height: 200px;*/
+    overflow: hidden;
+}
+#rbt_form_template_wrapper .rbt_change_img_outer img{
+	height:100%;
+	height:258px;
+	width: 100%;
+    object-fit: cover;
+}
+#rbt_form_template_wrapper .rbt_temp_field{
+	padding:0px 24px 24px;
+}
+#rbt_form_template_wrapper .rbt_temp_field h1{
+	font-size:20px;
+	color:#000;
+	font-weight:600;
+	text-align:center;
+	margin:0px;
+	line-height:80px;
+}
+#rbt_form_template_wrapper .rbt_temp_field .rbt_error_div_info,#rbt_form_template_wrapper .error_message_div .rbt_error_div_info {
+    background: #f05b41;
+    color: #fff;
+    padding: 16px !important;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom : 16px !important;
+    text-align: center;
+     width:100%;display:inline-block;
+}
+
+#rbt_form_template_wrapper .error_message_div .rbt_tiny_mce_editor {
+width: 100%;
+display: inline-block;
+max-width: 100%;
+text-align: center;
+}
+
+#rbt_form_template_wrapper .rbt_temp_field label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #212529;
+    text-align: left;
+    display: inherit;
+}
+#rbt_form_template_wrapper .rbt_temp_field .form-group,  #rbt_form_template_wrapper #reset_outer .form-group {
+    margin-bottom: 20px;
+}
+#rbt_form_template_wrapper .rbt_temp_field .form-control,  #rbt_form_template_wrapper #reset_outer .form-control  {
+    height: 44px;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 100%;
+}
+#rbt_form_template_wrapper .rbt_temp_field .signin_btn_outer{
+	text-align:center;
+}
+#rbt_form_template_wrapper .rbt_temp_field .rbt_temp_form_submit_btn {
+    width: 100%;
+    padding: 0 24px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: #4787fd;
+    border: none; 
+    line-height:48px;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+#rbt_form_template_wrapper input[type=checkbox],  input[type=radio] {
+    height: 18px;
+    width: 18px;
+    min-width: 18px;
+    margin: 0px 5px 0 0;
+}
+
+#rbt_form_template_wrapper .captcha_wrapper_outer{
+	display:none;
+}
+.frontend_captcha div div{
+	float:left;
+	width:100%;
+}
+.frontend_captcha iframe{ margin:0px}
+ 
+#rbt_form_template_wrapper .form-group span {
+    font-size: 16px;
+    color: #212529;
+} 
+#rbt_form_template_wrapper .error_message_div .additional_info_msg{
+	color:inherit;
+}
+
+
+
+#rbt_form_template_wrapper .rbt_temp_field .form-control:focus , 
+#rbt_form_template_wrapper #reset_outer .form-control:focus {
+    box-shadow: none;
+    border-color: #C5C5C5;
+}
+ 
+@media (max-width: 640px){
+	#rbt_form_template_wrapper .rbt_change_img_outer img {
+		max-height: 190px !important;
+		object-fit: contain;
+	}
+}

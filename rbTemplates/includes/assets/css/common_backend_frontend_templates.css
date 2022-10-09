@@ -1,0 +1,26 @@
+.rbt_temp_button_click_show_outer    { text-align: center;}
+.rbt_temp_button_click_show_outer .rbt_temp_button_click_show, .rbt_temp_button_click_show_outer .rbt_temp_button_click_show.mce-content-body    {
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    background: #b45541;
+    color: rgb(255, 255, 255);
+    height: auto;
+    padding: 9px 0px;
+    text-transform: none;
+    font-family: "DM Sans", sans-serif;
+    min-width: 90px;
+    box-shadow: none;
+    text-decoration: none;
+    margin: 0;
+    line-height: 40px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    max-width: 100%;
+    outline: none;
+    text-decoration: none !important;
+    width: 200px;
+}

@@ -1,0 +1,232 @@
+/*
+ * 
+ */
+
+
+
+
+.rbt_draggable_element_outer   .ui-resizable-handle{
+   /* background-color: #f55302 !important;*/
+}
+
+.rbt_template_drag_drop_item_section .ui-icon-gripsmall-diagonal-se,  .rbt_template_drag_drop_item_section .ui-resizable-handle.ui-resizable-se{background-color: #f55302 !important; }
+
+.rbt_template_enable_drag_drop_outer  .hover_close_btn{z-index:1}
+.rbt_template_drag_drop_item_section  {	float: left;    width: 100%;}
+.rbt_template_drag_drop_item_section  :hover {
+    /*border: 3px dashed rgb(231, 231, 231);*/
+}
+.ui_helper_my_custom_element .hover_close_btn {
+    position: absolute;
+    right: 6px;
+    top: 1px;
+}
+.hover_close_btn{display: none;}
+
+
+
+
+
+.rbt_ui_helper_my_custom_droppable_start_element {
+	width:250px !important;
+	height:auto !important;
+	float: left;
+    border: 0px dashed #cccc;
+    background-color:#fff;
+    cursor: pointer;
+}
+
+
+.rbt_template_enable_drag_drop_outer .ui_helper_my_custom_element {
+  /*max-width: 345px !important;*/
+   
+}
+.rbt_template_enable_drag_drop_outer .ui_helper_my_custom_element {
+   /*max-width: 1360px !important;*/
+   
+}
+.rbt_template_enable_drag_drop_outer {float: left;    width: 100%; }
+
+.ui-sortable, .sortableFileList {
+    float: left;
+    width: 100% !important;
+  
+}
+
+.rbt_element_customizer_wrapper_list .element_customizer_wrapper .element_wrapper .inner_section_side_bar .inner_template_style_box.element_paddings  {width:33%;display: inline-table;}
+.rbt_element_customizer_wrapper_list .element_customizer_wrapper .element_wrapper .inner_section_side_bar .inner_template_style_box  {width:50%;display: inline-table;}
+.rbt_element_customizer_wrapper_list {
+       width: 100% !important;
+    display: inline-block;
+    border: 1px solid #837474;
+    padding: 6px 5px;
+    background-color: #4444;
+}
+
+.rbt_template_drag_drop_item_section  { float: left;    width: 100%;
+    position: relative;  width: 100% !important;
+    position: relative;
+    height: auto !important;
+
+}
+
+
+.element_drop_here {
+    border: 2px dotted #16d3b3 !important;
+    width: 100% !important;
+    float: left;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    color: #555;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 13px 0;
+}
+
+.ui-sortable {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.rbt_inner_section_side_bar, .rbt_inner_section_side_bar iframe  {
+    width: 100% !important;
+    float: left !important;
+}
+.element_customizer_active {border: 2px dotted #16d3b3 !important;}
+
+.rbt_draggable_elements_wrapper,.rbt_addcustomfield_draggable_elements_wrapper  {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.draggableElement {
+    height: 34px;
+    transition: all ease 0.3s;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 6px;
+    background: #fff;
+    color: #555;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif !important;
+    text-align: left;
+    border: 1px solid #dee8e8;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+
+.rbt_ui_helper_my_custom_droppable_start_element {
+    width:250px !important;
+    height:auto !important;
+    float: left;
+    border: 0px dashed #cccc;
+    background-color:#fff;
+    cursor: pointer;
+}
+
+
+/* drag drop css start  */
+.template_html_wrapper_backend .dragdrop_video_elements iframe{pointer-events: none;}
+/* drag and drop end */
+
+
+.rb_template_drag_drop_item_section  .rb_video_resizeable  iframe {aspect-ratio: 16/9;}
+.customized-optional-ul .rbt_inner_section_side_bar {    background-color: #b8bbd1;
+    text-align: center;       margin: 5px 0;}
+.rbt_draggable_elements_wrapper .rbt_inner_section_side_bar .template_style  .fa { padding-right: 9px;}
+.hover_close_btn .element_delete{    color: red;
+    float: right;}
+
+    .rbt_element_customizer_wrapper_list  .element_customizer_wrapper .customize_heading{font-size: 20px}
+    .rbt_element_customizer_wrapper_list  .element_customizer_wrapper .customize_heading .rbt_item_close_element_cutomizer{color: red;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;}
+    .rbt_element_customizer_wrapper_list  .inner_section_side_bar{background-color: #afa7a7;
+    padding: 10px 12px 8px;}
+    .rbt_element_customizer_wrapper_list  .inner_section_side_bar     .inner_template_style_box  h4 {    font-size: 15px;}
+    .rbt_element_customizer_wrapper_list  .inner_section_side_bar .inner_template_style_box  {      margin-right: 12px;  width: 25%;
+    display: inline-block;}
+
+
+    .rbt_change_img_icon {
+    position: absolute;
+    bottom: 0;
+    background: #ffffff6b;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    visibility: hidden;
+    transition: 0.3s;
+
+}
+
+.template_html_wrapper_backend .rbt_change_img_outer:hover .rbt_change_img_icon{
+  visibility: visible;
+}
+
+
+.rbt_template_drag_drop_item_section  .testimonial_outer_section {display: flex;padding: 10px;}
+
+.rbt_template_drag_drop_item_section  .testimonial_outer_section .client_image {flex-basis: 110px;max-width: 110px;min-width: 110px;width: 110px;}
+
+.rbt_template_drag_drop_item_section  .testimonial_outer_section .client_image img {width: 100%;}
+
+.rbt_template_drag_drop_item_section  .testimonial_outer_section .client_feed_bk {padding: 0 0 0 25px;}
+
+.rbt_template_drag_drop_item_section .dragdrop_bullet_points ul li::before {content: ""; width: 6px; height: 6px; background: #333; border-radius: 100%; position: absolute; left: 0; top: 6px; z-index: 2; right: auto; bottom: auto; }
+
+.rbt_template_drag_drop_item_section .dragdrop_bullet_points ul li {list-style: none; font-size: 14px; color: #333; font-weight: 300; font-family: 'Open Sans',sans-serif; line-height: 18px; border: none; margin: 0; padding: 0 0 0 18px; position: relative; }
+
+.rbt_template_drag_drop_item_section .dragdrop_bullet_points ul li + li {margin-top: 15px;}
+
+.rbt_template_drag_drop_item_section .dragdrop_bullet_points ul {width: 100%;float: left;margin: 0;padding: 0;list-style: none;}
+
+
+
+.rbt_template_drag_drop_item_section ul.list-check-style {display: inline-block;width: 100%;margin: 0 0 20px 0;padding: 0;vertical-align: middle;}
+
+.rbt_template_drag_drop_item_section ul.list-check-style {margin-bottom: 0;list-style: none;list-style: none;}
+
+.rbt_template_drag_drop_item_section h3.list--heading {color: #464646;font-size: 22px;font-weight: 600;line-height: normal;margin: 0 0 10px 0;padding: 0;}
+
+.rbt_template_drag_drop_item_section ul.list-check-style li , .rbt_template_drag_drop_item_section .ui-sortable ul.list-check-style li{font-size: 16px; padding-left: 26px; position: relative; margin: 5px 0; padding: 0 0 0 25px; border: none; list-style: none; }
+
+.rbt_template_drag_drop_item_section ul.list-check-style li::before , .rbt_template_drag_drop_item_section .ui-sortable ul.list-check-style li::before{content: ''; width: 12px; height: 6px; position: absolute; top: 4px; left: 3px; border: 3px solid #10e579; border-top: none; border-right: none; background: transparent; transform: rotate(-45deg); z-index: 2; }
+
+.rbt_template_drag_drop_item_section ul.list-check-style li .rbt_remove_li_text, .rbt_template_drag_drop_item_section .ui-sortable ul.list-check-style li .rbt_remove_li_text {cursor: pointer; position: absolute; right: -4px; top: -2px; color: #ff1616; font-size: 14px; width: auto; height: auto; z-index: 3; opacity: 0; visibility: hidden; display: none; }
+
+.rbt_template_drag_drop_item_section ul.list-check-style li:hover .rbt_remove_li_text, .rbt_template_drag_drop_item_section .ui-sortable ul.list-check-style li:hover .rbt_remove_li_text {opacity: 1; visibility: visible; display: inline-block; }
+
+ .rbt_template_drag_drop_item_section .rbt_add_more_li_text {background: #3cd59f; color: #fff; display: inline-block; width: auto; margin: 5px 0; padding: 5px 8px; font-size: 13px; font-weight: 600; border-radius: 4px; cursor: pointer; outline: none; box-shadow: none; float: right; }
+.rbt_template_drag_drop_item_section iframe {max-width: 100%;}
+
+.rbt_template_drag_drop_item_section .dragdrop_add_button_anchor{max-width:100%; display: inline-block; position: relative;border-radius: 5px;background: #b45541;color: rgb(255, 255, 255);height: auto;padding: 9px 0px;text-transform: none;font-family: "DM Sans", sans-serif;min-width: 90px;box-shadow: none;text-decoration: none;margin: 0;line-height: 40px;border: none;font-size: 18px;text-align: center;font-weight: 600;max-width: 100%;outline: none;text-decoration: none !important;width:200px;}
+.rbt_template_drag_drop_item_section.drag_drop_add_button_element_outer {text-align:center}
+
+.rbt_template_drag_drop_item_section[data-type="text"],
+.rbt_template_drag_drop_item_section[data-type="add_button"],
+.rbt_template_drag_drop_item_section[data-type="heading"],
+.rbt_template_drag_drop_item_section[data-type="subheading"],
+.rbt_template_drag_drop_item_section[data-type="add_shortcode"],
+.rbt_template_drag_drop_item_section[data-type="bullet_points"],
+.rbt_template_drag_drop_item_section[data-type="add_more_tick_text"]
+  {padding: 10px;}
+
+  .rbt_img_resizeable_outer, .rbt_img_resizeable_outer .rbt_change_img {
+    max-width: 100% !important;
+}
+

@@ -1,0 +1,10 @@
+
+.rbt_field_file_html {display: none;}
+#rbt_form_template_wrapper .rbt_temp_field .signin_btn_outer div {
+    width: 100%;
+    float: left;
+}
+
+.rbt_frontend_outer_div  #rbt_form_template_wrapper .rbt_temp_field .signin_btn_outer div {float: none;}
+
+.rbt_disabled_pointer_event{pointer-events: none;}

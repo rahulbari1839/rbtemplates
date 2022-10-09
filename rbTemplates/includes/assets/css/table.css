@@ -1,0 +1,40 @@
+/* Table design start*/
+
+.rb-copy-btn{
+	background-color: #47a3ed;
+	padding: 8px;
+	color: #fff;
+	border-radius: 4px;
+	margin-left: 10px;
+	float: right;cursor: pointer;
+}
+.shortcode_display {    float: left;}
+
+.rbt_manage_table p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.rbt_create-btn{
+	background-color: #53d5b7;
+	padding: 8px 16px;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 2px #d3d3d3a6;
+}
+.rbt_create-btn:hover {
+    opacity: 0.8;
+    color:#fff;
+}
+.rbt_heading h3{
+	 font-size: 22px;
+    color: #23584c;
+}
+.rbt_table_contant{
+	border: 1px solid #dee2e6;
+	background-color: #f8f9fa!important;
+}
+.rbt_header{
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Table design end */
